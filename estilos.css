@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Pixel';
+  src: url('./fuentes/Jersey10-Regular.ttf') format('woff2'),
+       url('./fuentes/Jersey10-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}   
+
+
 body {
   background-image: url('./Imágenes/kanto-map.jpeg'); 
   background-size: cover;
@@ -6,3 +16,19 @@ body {
   height: 100vh;
   margin: 0;
 }   
+
+h1 {
+font-size: 50px;
+letter-spacing: 7px;
+  font-family: 'Pixel';
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;       
+  padding: 10px 20px;
+  margin: 20px auto;           
+  text-align: center;
+  width: fit-content;          
+}   
+ 
+  
+ 
