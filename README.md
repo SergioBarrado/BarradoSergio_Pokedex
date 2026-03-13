@@ -1,0 +1,1 @@
+# BarradoSergio_Pok-dex
