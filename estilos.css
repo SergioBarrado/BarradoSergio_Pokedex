@@ -18,17 +18,22 @@ body {
 }   
 
 h1 {
-font-size: 50px;
-letter-spacing: 7px;
-  font-family: 'Pixel';
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: block;       
-  padding: 10px 20px;
-  margin: 20px auto;           
-  text-align: center;
-  width: fit-content;          
+    border-radius: 10px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'Press Start 2P';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: block;       
+    padding: 10px 20px;
+    margin: 20px auto;           
+    text-align: center;
+    width: fit-content;          
 }   
- 
-  
+
+li { 
+    font-size: 20px;
+    color: white;
+    font-family: 'Press Start 2P'
+}
  
