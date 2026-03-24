@@ -44,7 +44,6 @@
     font-family: 'Press Start 2P';
 }
 
-
 .cindaquilh1 {
   border-radius: 10px;
     font-size: 40px;
@@ -70,4 +69,28 @@
     font-family: 'Press Start 2P';
     background-color: rgba(236, 202, 9, 0.849);
     width: fit-content; 
+}
+
+.cyndatitulo {
+    font-size: 24px;
+    font-family: 'Press Start 2P';      
+}
+
+.cyndadesc {
+    font-size: 18px;
+    font-family: 'Press Start 2P';
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.volver {
+    font-size: 18px;
+    font-family: 'Press Start 2P';
+    color: white;
+    background-color: rgb(255, 0, 0);
+    width: fit-content; 
+    padding: 10px 20px;
+    margin: 10px auto; 
+    text-decoration: none;
+    display: block;
 }
