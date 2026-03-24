@@ -17,7 +17,7 @@
   margin: 0;
 }   
 
-h1 {
+.titulopokedex {
     border-radius: 10px;
     font-size: 50px;
     letter-spacing: 3px;
@@ -31,15 +31,43 @@ h1 {
     width: fit-content;          
 }   
 
-li { 
+.tabla1 { 
     font-size: 20px;
     color: white;
     font-family: 'Press Start 2P';
     line-height: 28px;
 }
 
-a {
+.enlace {
     color: white;
     text-decoration: none;
     font-family: 'Press Start 2P';
+}
+
+
+.cindaquilh1 {
+  border-radius: 10px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: 'Press Start 2P';      
+    padding: 10px 20px;
+    margin: 10px auto;           
+    text-align: center;
+    width: fit-content; 
+}
+
+.tipo {
+    font-size: 20px;
+    font-family: 'Press Start 2P';
+    text-align: justify;
+    margin: 0 20px;
+}
+
+.fuego {
+    border-radius: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Press Start 2P';
+    background-color: rgba(236, 202, 9, 0.849);
+    width: fit-content; 
 }
