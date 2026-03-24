@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'Pixel';
-  src: url('./fuentes/Jersey10-Regular.ttf') format('woff2'),
-       url('./fuentes/Jersey10-Regular.ttf') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}   
-
 
 .paginaprincipal {
   background-image: url('./Imágenes/kanto-map.jpeg'); 
@@ -93,4 +84,8 @@
     margin: 10px auto; 
     text-decoration: none;
     display: block;
+}
+.evolucionescyndaquil {
+    justify-content: center;
+    align-items: center;
 }
