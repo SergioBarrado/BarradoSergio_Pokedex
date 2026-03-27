@@ -3,7 +3,6 @@
   background-image: url('./Imágenes/kanto-map.jpeg'); 
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   height: 100vh;
   margin: 0;
 }   
@@ -27,6 +26,7 @@
     color: white;
     font-family: 'Press Start 2P';
     line-height: 28px;
+    
 }
 
 .enlace {
@@ -47,61 +47,61 @@
 }
 
 .tipo {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Press Start 2P';
     text-align: justify;
     margin: 0 20px;
 }
 
 .fuego {
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 30px;
     font-size: 25px;
     letter-spacing: 3px;
     font-family: 'Press Start 2P';
     background-color: rgba(236, 202, 9, 0.849);
-    width: fit-content; 
 }
 
 .agua {
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 30px;
     font-size: 25px;
     letter-spacing: 3px;
     font-family: 'Press Start 2P';
     background-color: rgba(0, 191, 255, 0.849);
-    width: fit-content; 
 }
 .siniestro {
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 30px;
     font-size: 25px;
     letter-spacing: 3px;
     font-family: 'Press Start 2P';
     background-color: rgb(201, 186, 186);
-    width: fit-content; 
 }
 .veneno{
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 30px;
     font-size: 25px;
     letter-spacing: 3px;
     font-family: 'Press Start 2P';
     background-color: rgb(209, 130, 209);
-    width: fit-content; 
 }
 .psiquico{
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 30px;
     font-size: 25px;
     letter-spacing: 3px;
     font-family: 'Press Start 2P';
     background-color: rgb(255, 0, 255);
-    width: fit-content; 
 }
 .fantasma
 {
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 30px;
     font-size: 25px;
     letter-spacing: 3px;
     font-family: 'Press Start 2P';
     background-color: rgba(128, 0, 128, 0.849);
-    width: fit-content; 
 }
 
 .poketitulo {
@@ -142,7 +142,6 @@
         gap: 40px;
         margin: 20px auto;           
         max-width: 1500px;
-       
         transition: transform 0.3s;
 }
 
