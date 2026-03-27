@@ -28,6 +28,10 @@
     line-height: 28px;
     
 }
+.enlace:hover {
+    color : rgb(68, 255, 11); 
+    transform : scale(1.2);
+}
 
 .enlace {
     color: white;
@@ -49,8 +53,6 @@
 .tipo {
     font-size: 25px;
     font-family: 'Press Start 2P';
-    text-align: justify;
-    margin: 0 20px;
 }
 
 .fuego {
@@ -127,7 +129,10 @@
     text-decoration: none;
     display: block;
 }
-
+.volver:hover {
+    
+    transform: scale(1.2);
+}
 
 .flecha {
         font-size: 80px;
