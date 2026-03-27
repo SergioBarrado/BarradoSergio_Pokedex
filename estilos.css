@@ -1,12 +1,12 @@
-
+/*Esto es para el fondo de index.html, le he dado un margen de 0 para que no haya ningún espacio entre el borde de la pantalla y la imagen*/
 .paginaprincipal {
   background-image: url('./Imágenes/kanto-map.jpeg'); 
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100%;
   margin: 0;
 }   
-
+/*Este es el titulo de la pagina principal,le he dado un padding para que el texto no esté pegado al borde del fondo y un margin para separarlo del resto de elementos*/
 .titulopokedex {
     border-radius: 10px;
     font-size: 50px;
@@ -22,10 +22,10 @@
 }   
 
 .tabla1 { 
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     font-family: 'Press Start 2P';
-    line-height: 28px;
+  
     
 }
 .enlace:hover {
@@ -117,7 +117,7 @@
     text-align: justify;
     letter-spacing: 2px;
 }
-
+/*Al boton de volver le he peusto un padding para que el texto no esté pegado al borde del boton y un margin para separarlo del resto de elementos, el display block es para que el enlace ocupe toda la linea y le he quitado la decoracion para que no salga que es un enlace*/
 .volver {
     font-size: 18px;
     font-family: 'Press Start 2P';
@@ -139,17 +139,33 @@
         color: rgb(0, 0, 0);
 }
 
-
+/*En las evoluciones he puesto un display flex para que las imagenes y la flecha estén en la misma linea, también he puesto gap para separar las imagenes de la flecha, un margin para separarlo del resto de elementos y el max-width para que no se haga demasiado grande*/
 .evoluciones {
+        font-family:  'Press Start 2P';
+        text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 40px;
         margin: 20px auto;           
         max-width: 1500px;
-        transition: transform 0.3s;
 }
 
 .evoluciones img:hover {
     transform: scale(1.2);
+}
+/*El media query hace lo que le pones dentro cuando la pantalla pasa por debajo de los pixeles quye pones en max-width, he hecho que las imagenes, las flechas y el texto se reduzcan y que el espacio entre las imagenes y las flechas tambien se reduzca*/
+@media (max-width: 600px) {
+    .evoluciones{ 
+        gap: 20px;
+    }
+    img {
+        max-width: 90px;
+    }
+    .flecha {
+        font-size: 20px;
+    }
+    p  {
+        font-size: 5px;
+    }
 }
