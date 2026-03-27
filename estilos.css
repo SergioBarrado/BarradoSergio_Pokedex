@@ -85,16 +85,22 @@
     text-decoration: none;
     display: block;
 }
-.evolucionescyndaquil {
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
 
 
 .flechacyndaquil {
-    font-size: 80px;
-    color: rgb(0, 0, 0);
+        font-size: 80px;
+        color: rgb(0, 0, 0);
 }
+
+
+.evolucionescyndaquil {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 20px auto;
+        width: 90%;           
+        max-width: 1000px;
+        padding: 10px 0;
+}
+
