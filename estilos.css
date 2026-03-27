@@ -35,7 +35,7 @@
     font-family: 'Press Start 2P';
 }
 
-.cindaquilh1 {
+.pokeh1 {
   border-radius: 10px;
     font-size: 40px;
     letter-spacing: 3px;
@@ -62,12 +62,12 @@
     width: fit-content; 
 }
 
-.cyndatitulo {
+.poketitulo {
     font-size: 24px;
     font-family: 'Press Start 2P';      
 }
 
-.cyndadesc {
+.pokedesc {
     font-size: 18px;
     font-family: 'Press Start 2P';
     text-align: justify;
@@ -87,13 +87,13 @@
 }
 
 
-.flechacyndaquil {
+.flecha {
         font-size: 80px;
         color: rgb(0, 0, 0);
 }
 
 
-.evolucionescyndaquil {
+.evoluciones {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -102,5 +102,9 @@
         width: 90%;           
         max-width: 1000px;
         padding: 10px 0;
+        transition: transform 0.3s;
 }
 
+.evoluciones img:hover {
+    transform: scale(1.2);
+}
