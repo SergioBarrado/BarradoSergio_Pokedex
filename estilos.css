@@ -70,6 +70,24 @@
     background-color: rgba(0, 191, 255, 0.849);
     width: fit-content; 
 }
+.siniestro {
+    border-radius: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Press Start 2P';
+    background-color: rgb(201, 186, 186);
+    width: fit-content; 
+}
+
+.fantasma
+{
+    border-radius: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Press Start 2P';
+    background-color: rgba(128, 0, 128, 0.849);
+    width: fit-content; 
+}
 
 .poketitulo {
     font-size: 24px;
